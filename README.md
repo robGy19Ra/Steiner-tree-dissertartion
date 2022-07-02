@@ -1,0 +1,2 @@
+# Steiner-tree-dissertartion
+This script constructs a weighted graph of a given resolution within a user defined area in QGIS. Edge weights are calculated based on intersections with Ordnance Survey MasterMap topologicalarea features and a corresponding cost lookup sheet. The weighted graph is fed into the networkx pythton library to conduct a Steiner Tree analysis. The resulting sub-graph is then returned for plotting within QGIS. 
