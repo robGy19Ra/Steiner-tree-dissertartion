@@ -31,7 +31,7 @@ from qgis.core import (
 
 
 def to_discord(to_message):     #function to push message variable to discord via webhook
-    webhook = DiscordWebhook(url='https://discord.com/api/webhooks/991728785042972752/N0iWYwWjdPtQgMoXxTQR9mZu6jKpzuwj1QteJEbIl3H5uE0hoBfXlVDSOtwQW-fOko3G', content=to_message, rate_limit_retry=True)
+    webhook = DiscordWebhook(url='[webhook URL]', content=to_message, rate_limit_retry=True)
     response = webhook.execute()
 
 
